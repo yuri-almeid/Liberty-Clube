@@ -1,0 +1,30 @@
+
+Dados do banco de dados:
+  - Cadastro
+    - Nome
+    - Usuário
+    - E-mail
+    - Senha
+    - Celular
+    - Endereço
+    
+  - Back-end
+    - data de criação da conta
+    - planos
+      - 7 dias gratuitos
+
+  - Monitoramento
+    - Histórico (em off por enquanto)
+      - Como fazer isso?
+      - Plotar gráficos
+    - balanço atualizado 
+      - Atualiza a cada vez que entra
+  
+  
+
+
+
+
+
+
+
