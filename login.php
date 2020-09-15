@@ -53,7 +53,7 @@
 				</form>
 			
 				
-				
+				<!-- Registration -->
 				<form action="backend/php/register.php" method="POST">
 					<div class="inputs">
 						<div class="input">
