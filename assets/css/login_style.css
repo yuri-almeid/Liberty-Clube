@@ -181,7 +181,10 @@ form {
 }
 
 .alert {
+
+	/* outline: 2px red solid ; */
 	color: #e44c4c;
+	padding:  0px 0px 20px 0px;
 	font-size: 13px;
 	align-items: center;
 	height: 5px;
