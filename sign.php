@@ -63,13 +63,15 @@
 						</div>
 					</div>
 
-					<?php include('backend/php/errors.php'); ?>
+					<!-- <?php include('backend/php/errors.php'); ?> -->
 
 					<button class="btn" type="submit" name="form_register">Cadastrar</button>
 
 				</form>
 			</div>
+			
 		</div>
+		<?php include('backend/php/errors.php'); ?>
 	</div>
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/login_animation.js"></script>

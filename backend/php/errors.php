@@ -1,6 +1,5 @@
-<?php if (count($errors) > 0 ): ?>
-  <div class="alert alert-danger">
-    <P><?php echo $errors[0] ?></P>
+<?php  if (count($errors) > 0) : ?>
+  <div class="alert alert-warning">
+  	<p><?php echo $errors[0] ?></p>
   </div>
-<?php endif ?>
-
+<?php  endif ?>
