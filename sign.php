@@ -1,4 +1,4 @@
-<?php include_once "backend/php/db.php" ?>
+<?php include_once "backend/php/server.php" ?>
 
 <!DOCTYPE html>
 <html>
@@ -24,7 +24,7 @@
 		
 					<div class="inputs">
 						<div class="input">
-							<input name="username" placeholder="Usuário" type="text">
+							<input name="email" placeholder="E-mail" type="text">
 							<img src="icons/user.svg">
 						</div>
 						<div class="input">
@@ -36,52 +36,37 @@
 							<span>Mantenha-me conectado</span>
 						</label>
 					</div>
-
-
-					<!-- <div class="alert alert-danger">
-            <li>Usuário Inválido</li>
-					</div> -->
 					
-					<button class="btn" type="submit">Login</button>
+					<button class="btn" type="submit" name="form_login">Login</button>
 
-					<p>Ou</p>
-
-					<!-- Colocar autenticacao do google etc... -->
-					<div class="otherAuth">
-						<img src="icons/btngooglel.png">
-					</div>
 				</form>
 			
 				
 				<!-- Registration -->
-				<form action="backend/php/register.php" method="POST">
+				<form action="sign.php" method="POST">
 					<div class="inputs">
+						<div class="input">
+							<input name="name" placeholder="Nome Completo" type="text">
+							<img src="icons/user.svg">
+						</div>
 						<div class="input">
 							<input name="email" placeholder="E-mail" type="text">
 							<img src="icons/mail.svg">
 						</div>
 						<div class="input">
-							<input name="username" placeholder="Usuário" type="text">
-							<img src="icons/user.svg">
-						</div>
-						<div class="input">
-							<input name="password" placeholder="Senha" type="password">
+							<input name="password" id="password" placeholder="Senha" type="password">
 							<img src="icons/pass.svg">
 						</div>
-						
+						<div class="input">
+							<input name="password_confirmation" id="password_confirmation" placeholder="Confirme a senha" type="password">
+							<img src="icons/pass.svg">
+						</div>
 					</div>
 
-					
+					<?php include('backend/php/errors.php'); ?>
 
-					<!-- <div class="alert alert-danger">
-            <li>E-mail já cadastrado</li>
-					</div> -->
+					<button class="btn" type="submit" name="form_register">Cadastrar</button>
 
-					<button class="btn" type="submit">Cadastrar</button>
-					<p>Ou</p>
-					<div class="otherAuth">
-						<img src="icons/btngooglel.png">
-					</div>
 				</form>
 			</div>
 		</div>
