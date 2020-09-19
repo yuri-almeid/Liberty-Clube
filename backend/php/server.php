@@ -32,4 +32,10 @@ if (isset($_POST['form_register'])){
 
 if (isset($_POST['form_login'])){
 
+  $fm_email = mysqli_real_escape_string($db_connection, $_POST["email"]);
+  $fm_pass = mysqli_real_escape_string($db_connection, $_POST["password"]);
+
+  if (empty($fm_email)) { array_push($errors, "*Campo do e-mail está vazio!"); }
+  if (empty($fm_pass1)) { array_push($errors, "*Campo da senha está vazio!"); }
+
 }
