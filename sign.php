@@ -63,8 +63,7 @@
 						</div>
 					</div>
 
-					<!-- <?php include('backend/php/errors.php'); ?> -->
-
+					
 					<button class="btn" type="submit" name="form_register">Cadastrar</button>
 
 				</form>
