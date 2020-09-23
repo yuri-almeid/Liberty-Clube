@@ -23,7 +23,7 @@ if (isset($_POST['form_register'])){
     // Erros com senhas que não batem
   if ($fm_pass1 != $fm_pass2){ array_push($errors, "*As senhas estão diferentes!"); }
     // Verifica tamanho da senha
-  if (strlen($fm_pass1) < 6 ){ array_push($errors, "*A sua senha deve possuir no mínimo 6 caracteres!"); }
+  if (strlen($fm_pass1) < 8 ){ array_push($errors, "*A sua senha deve possuir no mínimo 8 caracteres!"); }
     
   // Verifica se existe algum email cadastrado
   $user_check = "SELECT * FROM users WHERE email='$fm_email' LIMIT 1";
@@ -43,15 +43,20 @@ if (isset($_POST['form_register'])){
   // Para caso não exista erros
   if (count($errors) == 0){
 
+    //Pega data da criação da conta
+    $fm_date = date("Y-m-d");
+
     // Criptografa a senha do usuário
     $fm_pass = md5($fm_pass1);
 
     // Envia dados para o banco de dados
-    $sql = "insert into users ( name, email , password) values ( '$fm_name', '$fm_email', '$fm_pass' )";
+    $sql = "insert into users ( name, email, password, creation_date) values ( '$fm_name', '$fm_email', '$fm_pass', '$fm_date' )";
     mysqli_query($db_connection, $sql);
 
     // AQUI VAI LOGAR O USUÁRIO
 
+
+    // CRIAR PAGINA DE CADASTRO COM SUCESSO
     header("Location: index.html?submit=sucess");
   }
 }
@@ -76,6 +81,8 @@ if (isset($_POST['form_login'])){
     $fm_pass = md5($fm_pass);
 
     // Envia dados para o banco de dados
+
+    // PEGAR APENAS O REGISTRO
     $query = "SELECT * FROM users WHERE email='$fm_email' AND password='$fm_pass'";
     $results = mysqli_query($db_connection, $query);
 
