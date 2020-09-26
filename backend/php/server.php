@@ -1,5 +1,8 @@
 <?php
 
+// Inicia uma sessão com o usuário
+session_start();
+
 // Inclui a função que faz a conexão com o banco de dados
 include_once 'db.php';
 
@@ -87,6 +90,7 @@ if (isset($_POST['form_login'])){
     $results = mysqli_query($db_connection, $query);
 
     if (mysqli_num_rows($results) == 1) {
+      
       
       
   	  header('location: index.php?submit=sucess');
