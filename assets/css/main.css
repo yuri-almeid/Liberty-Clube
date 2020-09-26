@@ -82,6 +82,53 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
+.sidemenu {
+  height: 100%;
+  background-color: #272833;
+  width: 16vw;
+}
+
+.sidemenu h2 {
+  padding: 16px;
+  text-align: center;
+}
+
+.sidemenu ul {
+  list-style: none;
+}
+
+.sidemenu ul li {
+  padding: 0rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidemenu ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  justify-content: center;
+  margin-right: 1rem;
+  border-bottom: none;
+  ly: "Roboto", Helvetica, sans-serif;
+}
+
+.sidemenu ul li span {
+  font-size: 1.1em;
+  width: 25px;
+  color: white;
+}
+
+.sidemenu .separator {
+  height: 25rem;
+}
+
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.534);
   font-family: "Roboto", Helvetica, sans-serif;
