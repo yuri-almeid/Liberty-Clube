@@ -30,6 +30,7 @@
 						<div class="input">
 							<input name="password" placeholder="Senha" type="password">
 							<img src="icons/pass.svg">
+							<a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a>
 						</div>
 						<label class="checkbox">
 							<input type="checkbox">
