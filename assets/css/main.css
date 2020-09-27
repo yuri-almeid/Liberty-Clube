@@ -85,12 +85,13 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 .sidemenu {
   height: 100%;
   background-color: #272833;
-  width: 16vw;
+  width: 300px;
 }
 
 .sidemenu h2 {
-  padding: 16px;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .sidemenu ul {
@@ -106,7 +107,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
 .sidemenu ul li a {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.534);
   margin: 0rem;
   width: 100%;
   height: 100%;
@@ -116,17 +117,25 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   justify-content: center;
   margin-right: 1rem;
   border-bottom: none;
-  ly: "Roboto", Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .sidemenu ul li span {
   font-size: 1.1em;
   width: 25px;
-  color: white;
+  color: rgba(255, 255, 255, 0.15);
 }
 
-.sidemenu .separator {
+.sidemenu .separator1 {
+  height: 50px;
+}
+
+.sidemenu .separator2 {
   height: 25rem;
+}
+
+.main_field {
+  outline: 1px solid red;
 }
 
 body, input, select, textarea {

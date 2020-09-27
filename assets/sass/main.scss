@@ -142,14 +142,17 @@
 
 	.sidemenu {
 		//position: fixed;
+		//outline: 1px solid red;
+
 		height: 100%;
 		background-color: _palette(accent2);
-		width: 16vw;
+		width: 300px;
 
 		h2 {
-			padding: 16px;
 			text-align: center;
-			// outline: 1px solid red;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			//outline: 1px solid red;
 		}
 
 		ul {
@@ -171,7 +174,7 @@
 
 				a {
 					text-decoration: none;
-					color: white;
+					color: _palette(fg);
 					margin: 0rem;
 					//outline: 1px solid green;
 					width: 100%;
@@ -181,33 +184,37 @@
 					font-size: 0.9em;
 					justify-content: center;
 					margin-right: 1rem;
-
 					border-bottom: none;
-
-					ly: _font(family)
-
+					font-family: _font(family)
 					
 
 				}
 				span {
 					font-size: 1.1em;
 					width: 25px;
-					color: white;
+					color: _palette(fg-lighter);
 				}
 
 			}
 			
 		}
 		
-		
+		.separator1 {
+			height: 50px;
+			// outline: 1px solid red;
 
-		.separator {
+		}		
+
+		.separator2 {
 			height: 25rem;
 			// outline: 1px solid red;
 
 		}
+	}
 
-
+	.main_field {
+		//display: flex;
+		outline: 1px solid red;
 	}
 
 	// ---------------------------------------------------------------------------------------------
