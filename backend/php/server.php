@@ -115,7 +115,7 @@ if (isset($_POST['form_recovery'])){
   if ($user) {
     if ($user['email'] === $fm_email) {
       
-      // Aqui entra se existir o email do cara
+      header('location: recover-sucess.html');
 
     } 
   } else {
