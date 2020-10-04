@@ -99,6 +99,23 @@ if (isset($_POST['form_login'])){
   	}
 
   }
+}
 
+// Para recuperação de senha
+if (isset($_POST['form_recovery'])){
+
+  $fm_email = mysqli_real_escape_string($db_connection, $_POST["email"]);
+
+  // Verifica se existe algum email cadastrado
+  $user_check = "SELECT * FROM users WHERE email='$fm_email' LIMIT 1";
+  $result = mysqli_query($db_connection, $user_check);
+  $user = mysqli_fetch_assoc($result);
+  if ($user) {
+    if ($user['email'] === $fm_email) {
+      
+      // Aqui entra se existir o email do cara
+
+    }
+  }
 
 }
