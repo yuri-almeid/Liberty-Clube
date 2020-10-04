@@ -146,8 +146,9 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   height: 25rem;
 }
 
-.main_field {
-  outline: 1px solid red;
+.profile_field {
+  width: max-content;
+  outline: 1px solid blue;
 }
 
 body, input, select, textarea {

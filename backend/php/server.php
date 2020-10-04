@@ -119,7 +119,7 @@ if (isset($_POST['form_recovery'])){
 
     } 
   } else {
-    array_push($errors, "*Este email não está cadastrado!");
+    array_push($errors, "* Este email não está cadastrado no sistema!");
   }
 
 }
