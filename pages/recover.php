@@ -1,9 +1,7 @@
+<?php include_once "../backend/php/server.php" ?>
+
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Recuperação de Senha</title>
@@ -56,19 +54,27 @@
 						<!-- Content -->
 							<section style="justify-content: center;" id="content">		
 								<h4 style="text-align: center;" >Insira seu e-mail para recuperação da senha:</h4>
-								<form method="POST" action="#">
+								
+								
+								<form method="POST" action="recover.php">
 									<div style="justify-content: center;" class="row gtr-uniform gtr-50">
+										
 										<div class="col-6 col-12-xsmall">
 											<input type="email" name="email" id="email" value="" placeholder="E-mail" />
 										</div>
 
 										<div class="col-12">
 											<ul style="justify-content: center;" class="actions">
-												<li><input type="submit" value="Enviar E-mail" class="primary" /></li>
+												<li><input type="submit" value="Enviar E-mail" class="primary" name="form_recovery" /></li>
 											</ul>
 										</div>
+										<div style="color: red;" class="alert">
+											<?php include('../backend/php/errors.php'); ?>
+										</div>
+										
 									</div>
 								</form>
+								
 							</section>
 					</div>
 				</div>

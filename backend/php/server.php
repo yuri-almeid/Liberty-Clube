@@ -106,6 +106,8 @@ if (isset($_POST['form_recovery'])){
 
   $fm_email = mysqli_real_escape_string($db_connection, $_POST["email"]);
 
+  if (empty($fm_email)) { array_push($errors, "*Campo do e-mail está vazio!"); }
+
   // Verifica se existe algum email cadastrado
   $user_check = "SELECT * FROM users WHERE email='$fm_email' LIMIT 1";
   $result = mysqli_query($db_connection, $user_check);
@@ -115,7 +117,9 @@ if (isset($_POST['form_recovery'])){
       
       // Aqui entra se existir o email do cara
 
-    }
+    } 
+  } else {
+    array_push($errors, "*Este email não está cadastrado!");
   }
 
 }
