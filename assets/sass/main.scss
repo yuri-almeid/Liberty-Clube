@@ -234,8 +234,20 @@
 
 	.profile_field {
 		//display: flex;
-		width: max-content;
+		width: auto;
 		outline: 1px solid blue;
+
+		
+		.title {
+			display: flex;
+			outline: 1px solid red;
+			justify-content: center;
+			width: 100%;
+			padding-top: 5em;
+			padding-bottom: 5em;
+			padding-left: 50%;
+		}
+
 	}
 
 	// ---------------------------------------------------------------------------------------------

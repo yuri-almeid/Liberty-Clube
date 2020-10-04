@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Dashboard</title>
+		<title>My Profile</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../../assets/css/main.css" />
@@ -51,8 +51,8 @@
 					<!-- <div class="separator1"></div> -->
 					<ul>
 						<li><span class="fa fa-user"></span><a href="#">Perfil</a></li>
-						<li><span class="fa fa-chart-line"></span><a href="#">Dashboard</a></li>
-						<li><span class="fa fa-key"></span><a href="#">Operar</a></li>
+						<li><span class="fa fa-chart-bar"></span><a href="#">Dashboard</a></li>
+						<li><span class="fa fa-chart-line"></span><a href="#">Operar</a></li>
 						<li><span class="fa fa-key"></span><a href="#">Cadastrar Token</a></li>
 						<li><span class="fa fa-cog"></span><a href="#">Configuração</a></li>
 					</ul>
@@ -60,7 +60,12 @@
 					<div class="separator2"></div>
 				</div>
 				<div class="profile_field">
-					<h1>xoxota</h1>
+					<div class="title">
+						<h1>Meu Dados</h1>
+					</div>
+
+					<input type="text" placeholder="fds" disabled>
+					
 
 				</div>
 			</div>
