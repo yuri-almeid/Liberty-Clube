@@ -65,6 +65,9 @@
 					</div>
 
 					<input type="text" placeholder="fds" disabled>
+					<input type="text" placeholder="fds" disabled>
+					<input type="text" placeholder="fds" disabled>
+					<input type="text" placeholder="fds" disabled>
 					
 
 				</div>
