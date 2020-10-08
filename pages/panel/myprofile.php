@@ -64,10 +64,14 @@
 						<h1>Meu Dados</h1>
 					</div>
 
-					<input type="text" placeholder="fds" disabled>
-					<input type="text" placeholder="fds" disabled>
-					<input type="text" placeholder="fds" disabled>
-					<input type="text" placeholder="fds" disabled>
+					<div class="profile_data">
+						<p class="mailp">E-mail</p>
+						<input class="email" type="text" placeholder="Email" disabled>
+						<input type="text" placeholder="fds" disabled>
+						<input type="text" placeholder="fds" disabled>
+						<input type="text" placeholder="fds" disabled>
+					</div>
+					
 					
 
 				</div>
