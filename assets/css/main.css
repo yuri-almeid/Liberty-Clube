@@ -160,6 +160,11 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   font-family: "Roboto", Helvetica, sans-serif;
 }
 
+.profile_field .profile_data .mailp {
+  color: white;
+  outline: 1px solid red;
+}
+
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.534);
   font-family: "Roboto", Helvetica, sans-serif;
