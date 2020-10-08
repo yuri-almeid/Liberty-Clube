@@ -147,18 +147,22 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 .profile_field {
-  width: auto;
-  outline: 1px solid blue;
+  width: 82%;
 }
 
 .profile_field .title {
+  font-size: 40px;
   display: flex;
   outline: 1px solid red;
   justify-content: center;
   width: 100%;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  padding-left: 50%;
+  padding: 2em;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.profile_field .profile_data .mailp {
+  color: white;
+  outline: 1px solid red;
 }
 
 body, input, select, textarea {
