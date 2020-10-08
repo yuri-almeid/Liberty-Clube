@@ -67,8 +67,11 @@
 					<div class="profile_data">
 						<p class="mailp">E-mail</p>
 						<input class="email" type="text" placeholder="Email" disabled>
+						<p class="namep">Nome</p>
 						<input type="text" placeholder="fds" disabled>
+						<p class="mailp">E-mail</p>
 						<input type="text" placeholder="fds" disabled>
+						<p class="mailp">E-mail</p>
 						<input type="text" placeholder="fds" disabled>
 					</div>
 					
