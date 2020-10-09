@@ -44,7 +44,7 @@
 
 			<!-- Main -->
 			
-			<div class="row">
+			<div class="panel-arrangement">
 				<div class="sidemenu">
 
 					<h2>John Doe</h2>
