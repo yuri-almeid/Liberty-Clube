@@ -44,7 +44,7 @@
 
 			<!-- Main -->
 			
-			<div class="row">
+			<div class="panel-arrangement">
 				<div class="sidemenu">
 
 					<h2>John Doe</h2>
@@ -61,15 +61,26 @@
 				</div>
 				<div class="profile_field">
 					<div class="title">
-						<h1>Meu Dados</h1>
+						<h1>Minha Conta</h1>
+					</div>
+
+					<div class="beautifulline">
+						<div class="line"></div>
 					</div>
 
 					<div class="profile_data">
-						<p class="mailp">E-mail</p>
-						<input class="email" type="text" placeholder="Email" disabled>
-						<input type="text" placeholder="fds" disabled>
-						<input type="text" placeholder="fds" disabled>
-						<input type="text" placeholder="fds" disabled>
+						
+						<p>E-mail</p>
+						<input type="text" placeholder="Email" disabled>
+						<p>Nome</p>
+						<input type="text" placeholder="Jhon">
+						<p>Sobrenome</p>
+						<input type="text" placeholder="Doe">
+						<p>Telefone</p>
+						<input type="text" placeholder="(DDD) 0000-0000">
+						<p>Deriv Token</p>
+						<input type="text" placeholder="Cadastre seu Token" disabled>
+						
 					</div>
 					
 					
