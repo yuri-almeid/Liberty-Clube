@@ -69,17 +69,29 @@
 					</div>
 
 					<div class="profile_data">
+
 						
+						<div class="container_input">
 						<p>E-mail</p>
 						<input type="text" placeholder="Email" disabled>
+						</div>
+						
+						<div class="container_input">
 						<p>Nome</p>
 						<input type="text" placeholder="Jhon">
+						</div>
+						<div class="container_input">
 						<p>Sobrenome</p>
 						<input type="text" placeholder="Doe">
+						</div>
+						<div class="container_input">
 						<p>Telefone</p>
 						<input type="text" placeholder="(DDD) 0000-0000">
+						</div>
+						<div class="container_input">
 						<p>Deriv Token</p>
 						<input type="text" placeholder="Cadastre seu Token" disabled>
+						</div>
 						
 					</div>
 					
