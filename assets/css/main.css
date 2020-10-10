@@ -182,12 +182,19 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   padding-top: 35px;
 }
 
-.panel-arrangement .profile_field .profile_data input {
+.panel-arrangement .profile_field .profile_data .container_input {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
   width: 500px;
 }
 
-.panel-arrangement .profile_field .profile_data p {
+.panel-arrangement .profile_field .profile_data .container_input p {
   outline: 1px solid red;
+}
+
+.panel-arrangement .profile_field .profile_data .container_input input {
+  width: 100%;
 }
 
 body, input, select, textarea {
