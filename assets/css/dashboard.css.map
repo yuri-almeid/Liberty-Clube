@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,OAAO,CAAC,8BAAI;AACZ,OAAO,CAAC,iFAAI;AAIZ,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAO;CAE1B",
+    "sources": [
+        "../sass/dashboard.scss",
+        "../sass/libs/_vars.scss"
+    ],
+    "names": [],
+    "file": "dashboard.css"
+}
