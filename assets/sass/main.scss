@@ -260,26 +260,25 @@
 			.profile_data {
 				padding-top: 35px;
 				
-				
+				display: grid;
+
+				grid-template-rows: 1fr 1fr;
 
 				.container_input {
 					//padding-bottom: 0px !important;
 
-					display: flex;
-					flex-direction: column;
+					
 					outline: 1px solid red;
-					width: 500px;
+					width: 400px;
 
 					//justify-content: center;
 
 					p {
 						outline: 1px solid red;
-					
 					}
 	
 					input {
 						width: 100%;
-						
 					}
 				}
 

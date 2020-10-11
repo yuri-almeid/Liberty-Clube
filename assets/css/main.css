@@ -180,13 +180,13 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
 .panel-arrangement .profile_field .profile_data {
   padding-top: 35px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .panel-arrangement .profile_field .profile_data .container_input {
-  display: flex;
-  flex-direction: column;
   outline: 1px solid red;
-  width: 500px;
+  width: 400px;
 }
 
 .panel-arrangement .profile_field .profile_data .container_input p {
