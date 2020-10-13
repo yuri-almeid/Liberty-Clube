@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/dashboard_main.scss"
+    ],
+    "names": [],
+    "file": "dashboard_main.css"
+}
