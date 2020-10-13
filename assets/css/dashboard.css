@@ -78,6 +78,44 @@ body.landing #header {
   position: absolute;
 }
 
+footer.major {
+  margin: 4em 0 0 0;
+}
+
+/* Footer */
+#footer {
+  background: #272833;
+  padding: 6em 0;
+  text-align: center;
+}
+
+#footer .copyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  line-height: 1em;
+  margin: 2em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+#footer .copyright li {
+  border-left: solid 1px rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  list-style: none;
+  margin-left: 1.5em;
+  padding-left: 1.5em;
+}
+
+#footer .copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#footer .copyright li a {
+  color: inherit;
+}
+
 .top_menu {
   width: 100%;
   height: 3.5em;

@@ -2,7 +2,20 @@
 @import url('fontawesome-all.min.css');
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
+// Mixins.
 
+@mixin line-icon($bg: #1c1d26, $fg: 	#ffffff) {
+  @include icon;
+  $size: 1px;
+
+  &:before {
+    color: $bg !important;
+    text-shadow:	$size 0 0 $fg,
+            ($size * -1) 0 0 $fg,
+            0 $size 0 $fg,
+            0 ($size * -1) 0 $fg;
+  }
+}
 
 body {
   background-color: #1c1d26;
@@ -108,7 +121,55 @@ body.landing {
   }
 }
 
+footer {
+  &.major {
+    margin: (2em * 2) 0 0 0;
+  }
+}
 
+/* Footer */
+
+#footer {
+  background: #272833;
+  padding: 6em 0;
+  text-align: center;
+
+  .icons {
+    .icon {
+      &.alt {
+        @include line-icon(#272833, 	rgba(255,255,255,0.5));
+      }
+    }
+  }
+
+
+  .copyright {
+    color: 	rgba(255,255,255,0.5);
+    font-size: 0.8em;
+    line-height: 1em;
+    margin: 2em 0 0 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      border-left: solid 1px 	rgba(255,255,255,0.3);
+      display: inline-block;
+      list-style: none;
+      margin-left: 1.5em;
+      padding-left: 1.5em;
+
+      &:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}
 
 
 
