@@ -100,7 +100,7 @@
 					</div>
 
 					<div class="div_space"></div>
-					
+
 					<div class="container_line">
 						<div class="container_input">
 							<p>Deriv Token:</p>
@@ -111,10 +111,10 @@
 
 					<div class="div_space"></div>
 					<div class="col-12">
-											<ul style="justify-content: center;" class="actions">
-												<li><input type="submit" value="Atualizar Dados" class="primary" name="form_recovery" /></li>
-											</ul>
-										</div>
+						<ul style="justify-content: center;" class="actions">
+							<li><input type="submit" value="Atualizar Dados" class="primary" name="form_recovery" /></li>
+						</ul>
+					</div>
 
 
 				</div>
