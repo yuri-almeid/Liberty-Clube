@@ -258,29 +258,50 @@
 			}
 	
 			.profile_data {
-				padding-top: 35px;
+				padding-top: 100px;
 				
-				display: grid;
+				display: flex;
+				flex-direction: column;
+				
+				// outline: 1px solid white;
+				
 
-				grid-template-rows: 1fr 1fr;
-
-				.container_input {
-					//padding-bottom: 0px !important;
-
-					
-					outline: 1px solid red;
-					width: 400px;
-
-					//justify-content: center;
-
-					p {
-						outline: 1px solid red;
+				.container_line {
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					// outline: 1px solid pink;
+					.space {
+						width: 150px;
 					}
+
+					.container_input {
+						width: 500px;
+						p {
+							margin-bottom: 0px;
+							color: white;
+						}
+						
+						#subtext {
+							
+							display: flex;
+							font-size: medium;
 	
-					input {
-						width: 100%;
+							justify-content: flex-end;
+							a {
+								margin-right: 3px;
+								border-bottom: none;
+							}
+						}
+
 					}
+
 				}
+
+				.div_space {
+					height: 60px;
+				}
+
 
 				
 	
