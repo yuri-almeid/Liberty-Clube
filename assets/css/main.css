@@ -218,6 +218,73 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   height: 60px;
 }
 
+.panel-arrangement .token_field {
+  width: 80%;
+  padding-left: 4%;
+}
+
+.panel-arrangement .token_field .title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1em;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.panel-arrangement .token_field .beautifulline {
+  height: 3px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.panel-arrangement .token_field .beautifulline .line {
+  height: 100%;
+  width: 500px;
+  background-color: #e44c4c;
+}
+
+.panel-arrangement .token_field .profile_data {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-arrangement .token_field .profile_data .container_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.panel-arrangement .token_field .profile_data .container_line .space {
+  width: 150px;
+}
+
+.panel-arrangement .token_field .profile_data .container_line .container_input {
+  width: 500px;
+}
+
+.panel-arrangement .token_field .profile_data .container_line .container_input p {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.panel-arrangement .token_field .profile_data .container_line .container_input #subtext {
+  display: flex;
+  font-size: medium;
+  justify-content: flex-end;
+}
+
+.panel-arrangement .token_field .profile_data .container_line .container_input #subtext a {
+  margin-right: 3px;
+  border-bottom: none;
+}
+
+.panel-arrangement .token_field .profile_data .div_space {
+  height: 60px;
+}
+
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.534);
   font-family: "Roboto", Helvetica, sans-serif;
