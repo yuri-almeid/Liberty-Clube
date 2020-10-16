@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>My Profile</title>
+	<title>Cadastro do Token</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../../assets/css/main.css" />
@@ -61,61 +61,23 @@
 				</ul>
 
 				<div class="separator2"></div>
-			</div>
-			<div class="profile_field">
+      </div>
+      
+
+			<div class="token_field">
 				<div class="title">
-					<h1>Minha Conta</h1>
+					<h1>Cadastrar Token</h1>
 				</div>
 
 				<div class="beautifulline">
 					<div class="line"></div>
 				</div>
 
-				<div class="profile_data">
+				<div class="token_data">
 
-					<div class="container_line">
-						<div class="container_input">
-							<p>Nome:</p>
-							<input type="text" placeholder="Jhon">
-						</div>
-						<div class="space"></div>
-						<div class="container_input">
-							<p>Sobrenome:</p>
-							<input type="text" placeholder="Doe">
-						</div>
-					</div>
-
-					<div class="div_space"></div>
-
-					<div class="container_line">
-						<div class="container_input">
-							<p>E-mail:</p>
-							<input type="text" placeholder="Email" disabled>
-						</div>
-						<div class="space"></div>
-						<div class="container_input">
-							<p>Telefone:</p>
-							<input type="text" placeholder="(DDD) 0000-0000">
-						</div>
-					</div>
-
-					<div class="div_space"></div>
-
-					<div class="container_line">
-						<div class="container_input">
-							<p>Deriv Token:</p>
-							<input type="text" placeholder="Cadastre seu Token" disabled>
-							<p id="subtext"> <a href="#">Clique aqui </a> para cadastrar seu token.</p>
-						</div>
-					</div>
-
-					<div class="div_space"></div>
-					<div class="col-12">
-						<ul style="justify-content: center;" class="actions">
-							<li><input type="submit" value="Atualizar Dados" class="primary" name="form_recovery" /></li>
-						</ul>
-					</div>
-
+					<div class="container">
+            
+          </div>
 
 				</div>
 
