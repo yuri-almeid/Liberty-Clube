@@ -75,9 +75,17 @@
 
 				<div class="token_data">
 
-					<div class="container">
-            
-          </div>
+					<div class="container_line">
+							<div class="container_input">
+								<p>Nome:</p>
+								<input type="text" placeholder="Jhon">
+							</div>
+							<div class="space"></div>
+							<div class="container_input">
+								<p>Sobrenome:</p>
+								<input type="text" placeholder="Doe">
+							</div>
+						</div>
 
 				</div>
 

@@ -246,7 +246,40 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 .panel-arrangement .token_field .token_data {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
   width: 100%;
+}
+
+.panel-arrangement .token_field .token_data .container_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.panel-arrangement .token_field .token_data .container_line .space {
+  width: 150px;
+}
+
+.panel-arrangement .token_field .token_data .container_line .container_input {
+  width: 500px;
+}
+
+.panel-arrangement .token_field .token_data .container_line .container_input p {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.panel-arrangement .token_field .token_data .container_line .container_input #subtext {
+  display: flex;
+  font-size: medium;
+  justify-content: flex-end;
+}
+
+.panel-arrangement .token_field .token_data .container_line .container_input #subtext a {
+  margin-right: 3px;
+  border-bottom: none;
 }
 
 body, input, select, textarea {
