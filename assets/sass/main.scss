@@ -300,13 +300,8 @@
 
 				.div_space {
 					height: 60px;
-				}
-
-
-				
-	
+				}	
 			}
-	
 		}
 
 		.token_field {
@@ -340,9 +335,44 @@
 			}
 	
 			.token_data {
+				padding-top: 100px;
+				
+				display: flex;
+				flex-direction: column;
+
 				width: 100%;
-				
-				
+
+				.container_line {
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					// outline: 1px solid pink;
+					.space {
+						width: 150px;
+					}
+
+					.container_input {
+						width: 500px;
+						p {
+							margin-bottom: 0px;
+							color: white;
+						}
+						
+						#subtext {
+							
+							display: flex;
+							font-size: medium;
+	
+							justify-content: flex-end;
+							a {
+								margin-right: 3px;
+								border-bottom: none;
+							}
+						}
+
+					}
+				}
+
 			}
 	
 		}
