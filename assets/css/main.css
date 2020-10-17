@@ -245,44 +245,8 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   background-color: #e44c4c;
 }
 
-.panel-arrangement .token_field .profile_data {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-}
-
-.panel-arrangement .token_field .profile_data .container_line {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.panel-arrangement .token_field .profile_data .container_line .space {
-  width: 150px;
-}
-
-.panel-arrangement .token_field .profile_data .container_line .container_input {
-  width: 500px;
-}
-
-.panel-arrangement .token_field .profile_data .container_line .container_input p {
-  margin-bottom: 0px;
-  color: white;
-}
-
-.panel-arrangement .token_field .profile_data .container_line .container_input #subtext {
-  display: flex;
-  font-size: medium;
-  justify-content: flex-end;
-}
-
-.panel-arrangement .token_field .profile_data .container_line .container_input #subtext a {
-  margin-right: 3px;
-  border-bottom: none;
-}
-
-.panel-arrangement .token_field .profile_data .div_space {
-  height: 60px;
+.panel-arrangement .token_field .token_data {
+  width: 100%;
 }
 
 body, input, select, textarea {
