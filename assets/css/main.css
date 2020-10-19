@@ -1,16 +1,86 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,8 +89,17 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -28,15 +107,19 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -60,7 +143,9 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   appearance: none;
 }
 
@@ -69,15 +154,20 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   background: #1c1d26;
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
   animation: none !important;
   transition: none !important;
 }
@@ -252,6 +342,14 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   width: 100%;
 }
 
+.panel-arrangement .token_field .token_data #tit {
+  width: 100%;
+  display: flex;
+  font-size: 45px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
 .panel-arrangement .token_field .token_data .container_line {
   display: flex;
   flex-direction: row;
@@ -259,7 +357,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 .panel-arrangement .token_field .token_data .container_line .space {
-  width: 150px;
+  width: 70px;
 }
 
 .panel-arrangement .token_field .token_data .container_line .container_input {
@@ -282,7 +380,14 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   border-bottom: none;
 }
 
-body, input, select, textarea {
+.panel-arrangement .token_field .token_data .btn {
+  padding-top: 25px;
+}
+
+body,
+input,
+select,
+textarea {
   color: rgba(255, 255, 255, 0.534);
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 15pt;
@@ -302,12 +407,14 @@ a:hover {
   border-bottom-color: transparent;
 }
 
-strong, b {
+strong,
+b {
   color: #ffffff;
   font-weight: 300;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -315,14 +422,24 @@ p {
   margin: 0 0 2em 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #ffffff;
   font-weight: 300;
   line-height: 1em;
   margin: 0 0 1em 0;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
   border: 0;
 }
@@ -1759,7 +1876,8 @@ body.landing.is-preload:after {
 }
 
 /* Section/Article */
-section.special, article.special {
+section.special,
+article.special {
   text-align: center;
 }
 
@@ -2839,7 +2957,8 @@ body.is-touch .spotlight {
   padding: 0;
 }
 
-.dropotron > li a, .dropotron > li span {
+.dropotron > li a,
+.dropotron > li span {
   border: 0;
   color: rgba(255, 255, 255, 0.534);
   display: block;
@@ -2851,7 +2970,8 @@ body.is-touch .spotlight {
   border-top: 0;
 }
 
-.dropotron > li.active > a, .dropotron > li.active > span {
+.dropotron > li.active > a,
+.dropotron > li.active > span {
   color: #e44c4c;
 }
 
@@ -2918,7 +3038,8 @@ body.landing .dropotron.level-0 {
   margin-left: 1em;
 }
 
-#header nav ul li a, #header nav ul li span {
+#header nav ul li a,
+#header nav ul li span {
   border: 0;
   color: inherit;
   display: inline-block;
@@ -2927,17 +3048,20 @@ body.landing .dropotron.level-0 {
   outline: 0;
 }
 
-#header nav ul li a.button, #header nav ul li span.button {
+#header nav ul li a.button,
+#header nav ul li span.button {
   height: 2em;
   line-height: 2em;
   padding: 0 1.25em;
 }
 
-#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
+#header nav ul li a:not(.button):before,
+#header nav ul li span:not(.button):before {
   margin-right: 0.5em;
 }
 
-#header nav ul li.active > a, #header nav ul li.active > span {
+#header nav ul li.active > a,
+#header nav ul li.active > span {
   color: #e44c4c;
 }
 
@@ -3092,7 +3216,10 @@ body.is-touch #banner {
 /* XLarge */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 13pt;
   }
 }
@@ -3100,7 +3227,10 @@ body.is-touch #banner {
 /* Large */
 @media screen and (max-width: 1280px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 11.5pt;
   }
   /* Spotlight */
@@ -3135,7 +3265,10 @@ body.is-touch #banner {
 /* Medium */
 @media screen and (max-width: 980px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 12pt;
   }
   /* Spotlight */
@@ -3205,16 +3338,21 @@ body.is-touch #banner {
 }
 
 /* Small */
-#navPanel, #titleBar {
+#navPanel,
+#titleBar {
   display: none;
 }
 
 @media screen and (max-width: 736px) {
   /* Basic */
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 12pt;
   }
   h2 {
@@ -3427,10 +3565,14 @@ body.is-touch #banner {
 /* XSmall */
 @media screen and (max-width: 480px) {
   /* Basic */
-  html, body {
+  html,
+  body {
     min-width: 320px;
   }
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 12pt;
   }
   /* Button */
