@@ -271,6 +271,11 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   color: white;
 }
 
+.panel-arrangement .token_field .token_data .container_line .container_input .btn {
+  width: 10px;
+  outline: 10px solid pink;
+}
+
 .panel-arrangement .token_field .token_data .container_line .container_input #subtext {
   display: flex;
   font-size: medium;

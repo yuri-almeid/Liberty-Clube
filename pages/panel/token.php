@@ -61,8 +61,8 @@
 				</ul>
 
 				<div class="separator2"></div>
-      </div>
-      
+			</div>
+
 
 			<div class="token_field">
 				<div class="title">
@@ -76,16 +76,22 @@
 				<div class="token_data">
 
 					<div class="container_line">
-							<div class="container_input">
-								<p>Nome:</p>
-								<input type="text" placeholder="Jhon">
-							</div>
-							<div class="space"></div>
-							<div class="container_input">
-								<p>Sobrenome:</p>
-								<input type="text" placeholder="Doe">
+						<div class="container_input">
+							<p>Token:</p>
+							<input type="text" placeholder="Token">
+						</div>
+						<div class="space"></div>
+
+						<div class="btn">
+							<div class="col-12">
+								<ul style="justify-content: center;" class="actions">
+									<li><input type="submit" value="Cadastrar" class="primary" name="" /></li>
+								</ul>
 							</div>
 						</div>
+
+
+					</div>
 
 				</div>
 
