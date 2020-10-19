@@ -75,27 +75,31 @@
 
 				<div class="token_data">
 
+				<p id="tit"><strong>Atenção</strong></p>
+
+				<p>
+					dddddddddddddddddddddddddddddddddddddasfasdhfiuhfiousdhfiusdaofasduifhiufhsaidufhsiaodfhoiasduhsdfoiuhfisufhsiahfiasufhsaudhfishf
+					shfdiufhsduhfsidhfasiufosaifhsduahfiushfsudhfsauhfiadhffsadiufsdiufhsaufhsaiudfhasidufhsaiduhfisuhfisaudhfasdhfoisuadhfiusdhfoisu
+					adhfouhdfoiasdhfdfhasdfhaisuf
+				</p>
+
+
+
 					<div class="container_line">
 						<div class="container_input">
 							<p>Token:</p>
 							<input type="text" placeholder="Token">
 						</div>
-						<div class="space"></div>
+					</div>
 
-						<div class="btn">
+					<div class="btn">
 							<div class="col-12">
 								<ul style="justify-content: center;" class="actions">
 									<li><input type="submit" value="Cadastrar" class="primary" name="" /></li>
 								</ul>
 							</div>
 						</div>
-
-
-					</div>
-
 				</div>
-
-
 			</div>
 		</div>
 
