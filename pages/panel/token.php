@@ -78,14 +78,17 @@
 				<p id="tit"><strong>Atenção</strong></p>
 
 				<p>
-					dddddddddddddddddddddddddddddddddddddasfasdhfiuhfiousdhfiusdaofasduifhiufhsaidufhsiaodfhoiasduhsdfoiuhfisufhsiahfiasufhsaudhfishf
-					shfdiufhsduhfsidhfasiufosaifhsduahfiushfsudhfsauhfiadhffsadiufsdiufhsaufhsaiudfhasidufhsaiduhfisuhfisaudhfasdhfoisuadhfiusdhfoisu
-					adhfouhdfoiasdhfdfhasdfhaisuf
+					
 				</p>
 
 
 
 					<div class="container_line">
+						<div class="container_input">
+							<p>E-mail:</p>
+							<input type="email" placeholder="E-mail">
+						</div>
+						<div class="space"></div>
 						<div class="container_input">
 							<p>Token:</p>
 							<input type="text" placeholder="Token">
