@@ -345,8 +345,6 @@ body.is-preload *:after {
 .panel-arrangement .token_field .token_data #tit {
   width: 100%;
   display: flex;
-  font-size: 45px;
-  margin-bottom: 20px;
   justify-content: center;
 }
 
