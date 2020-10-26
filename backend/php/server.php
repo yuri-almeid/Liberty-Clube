@@ -123,3 +123,19 @@ if (isset($_POST['form_recovery'])){
   }
 
 }
+
+// Para cadastro de token
+if (isset($_POST['form_token'])){
+
+
+}
+
+
+
+
+
+// para atualização de dados
+if (isset($_POST['form_update'])){
+
+
+}
