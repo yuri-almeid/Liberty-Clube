@@ -75,11 +75,7 @@
 
 				<div class="token_data">
 
-				<p id="tit"><strong>Atenção</strong></p>
-
-				<p>
-					
-				</p>
+				
 
 
 
@@ -102,6 +98,13 @@
 								</ul>
 							</div>
 						</div>
+
+						<!-- <p id="tit"><strong>Atenção</strong></p> -->
+
+						<p id="tit">
+						<strong>Atenção: </strong> Apenas será permitido um email, para cadastro dos tokens!
+						</p>
+				
 				</div>
 			</div>
 		</div>
