@@ -342,6 +342,11 @@ body.is-preload *:after {
   width: 100%;
 }
 
+.panel-arrangement .token_field .token_data .instructions #tit_inst {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
 .panel-arrangement .token_field .token_data #tit {
   width: 100%;
   display: flex;
