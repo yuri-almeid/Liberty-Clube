@@ -74,8 +74,14 @@
 				</div>
 
 				<div class="token_data">
+					<div class="container_line">
+						<div class="instructions">
+							<p id="tit_inst"><strong>Instruções:</strong></p>
+							<p id="tex_inst">Para conseguir o seu Token é muito fácil, primeiro é necessário que você crie ou entre em
+								sua conta na corretora <a href="#">Deriv.com</a>.</p>
+						</div>
+					</div>
 
-				
 
 
 
@@ -92,19 +98,19 @@
 					</div>
 
 					<div class="btn">
-							<div class="col-12">
-								<ul style="justify-content: center;" class="actions">
-									<li><input type="submit" value="Cadastrar" class="primary" name="" /></li>
-								</ul>
-							</div>
+						<div class="col-12">
+							<ul style="justify-content: center;" class="actions">
+								<li><input type="submit" value="Cadastrar" class="primary" name="" /></li>
+							</ul>
 						</div>
+					</div>
 
-						<!-- <p id="tit"><strong>Atenção</strong></p> -->
+					<!-- <p id="tit"><strong>Atenção</strong></p> -->
 
-						<p id="tit">
+					<p id="tit">
 						<strong>Atenção: </strong> Apenas será permitido um email, para cadastro dos tokens!
-						</p>
-				
+					</p>
+
 				</div>
 			</div>
 		</div>
