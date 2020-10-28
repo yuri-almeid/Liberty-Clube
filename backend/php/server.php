@@ -127,12 +127,36 @@ if (isset($_POST['form_recovery'])){
 // Para cadastro de token
 if (isset($_POST['form_token'])){
 
+  $fm_email = mysqli_real_escape_string($db_connection, $_POST["email"]);
+  $fm_token = mysqli_real_escape_string($db_connection, $_POST["token"]);
+
+  // Verificação de erros:
+    // Erros de ausencia de dados
+    if (empty($fm_email)) { array_push($errors, "* Campo do e-mail está vazio!"); }
+    if (empty($fm_token)) { array_push($errors, "* Campo da token está vazio!"); }
+
+    // PRECISA VERIFICAR SE JA TEM EMAIL CADASTRADO
+    // Verifica se existe algum email cadastrado
+    $user_check = "SELECT * FROM broker WHERE email='$fm_email' LIMIT 1";
+    $result = mysqli_query($db_connection, $user_check);
+    $user = mysqli_fetch_assoc($result);
+    if ($user) {
+      if ($user['email'] === $fm_email) {
+        
+
+        
+        header('location: recover-sucess.html');
+      } 
+    } else {
+      array_push($errors, "* Este email não está cadastrado no sistema!");
+    }
+
+    // Envia dados para o banco de dados
+    $sql = "insert into broker ( deriv_mail, deriv_token) values ( '$fm_email', '$fm_token' )";
+    mysqli_query($db_connection, $sql);
+
 
 }
-
-
-
-
 
 // para atualização de dados
 if (isset($_POST['form_update'])){
