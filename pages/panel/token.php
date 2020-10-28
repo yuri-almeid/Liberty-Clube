@@ -79,6 +79,54 @@
 							<p id="tit_inst"><strong>Instruções:</strong></p>
 							<p id="tex_inst">Para conseguir o seu Token é muito fácil, primeiro é necessário que você crie ou entre em
 								sua conta na corretora <a href="#">Deriv.com</a>.</p>
+
+							<div class="img_container">
+								<img src="../../images/instructions/image2.jpg" alt="">
+							</div>
+
+							<p id="tex_inst">Em seguida selecione qual conta da corretora você deseja usar (conta real ou virtual).
+							</p>
+
+							<div class="img_container">
+								<img src="../../images/instructions/image3.jpg" alt="">
+							</div>
+
+							<p id="tex_inst">Agora acesse as configurações da sua conta e clique na aba "API Token". </p>
+
+							<div class="img_container">
+								<img src="../../images/instructions/image4.jpg" alt="">
+							</div>
+
+							<div class="img_container">
+								<img src="../../images/instructions/image5.jpg" alt="">
+							</div>
+
+							<p id="tex_inst"> Agora basta criar o seu Token, é necessário criar um nome qualquer e lembre-se, para a
+								sua segurança <strong>APENAS</strong> forneça as permissões de leitura(Read), negociação(Trade) e
+								informações da negociação(Trading Information). </p>
+
+
+							<div class="img_container">
+								<img src="../../images/instructions/image6.jpg" alt="">
+							</div>
+
+							<p id="tex_inst">Com as permissões de pagamentos e administração você permite a outro ter acesso à fazer
+								saques na sua conta, mas fique tranquilo, não precisamos dessas permissões para fazer o seu dinheiro
+								render.
+							</p>
+
+							<div class="img_container">
+								<img src="../../images/instructions/image7.jpg" alt="">
+							</div>
+
+							<p id="tex_inst">Por fim, copie o Token e cadastre em nossa plataforma. </p>
+
+							<div class="img_container">
+								<img src="../../images/instructions/image8.jpg" alt="">
+							</div>
+
+							<p id="tex_inst">Lembre-se de cadastrar o token da sua conta Deriv.</p>
+
 						</div>
 					</div>
 

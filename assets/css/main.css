@@ -347,6 +347,23 @@ body.is-preload *:after {
   font-size: 30px;
 }
 
+.panel-arrangement .token_field .token_data .instructions p {
+  margin-bottom: 0px;
+}
+
+.panel-arrangement .token_field .token_data .instructions .img_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.panel-arrangement .token_field .token_data .instructions .img_container img {
+  width: 450px;
+  border-radius: 10px;
+}
+
 .panel-arrangement .token_field .token_data #tit {
   width: 100%;
   display: flex;
@@ -357,6 +374,7 @@ body.is-preload *:after {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .panel-arrangement .token_field .token_data .container_line .space {
