@@ -130,9 +130,6 @@
 						</div>
 					</div>
 
-
-
-
 					<div class="container_line">
 						<div class="container_input">
 							<p>E-mail:</p>
