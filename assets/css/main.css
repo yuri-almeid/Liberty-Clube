@@ -336,10 +336,14 @@ body.is-preload *:after {
 }
 
 .panel-arrangement .token_field .token_data {
-  padding-top: 100px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.panel-arrangement .token_field .token_data .instructions {
+  width: 80%;
 }
 
 .panel-arrangement .token_field .token_data .instructions #tit_inst {
