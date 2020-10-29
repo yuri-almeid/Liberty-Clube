@@ -285,6 +285,24 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   height: 60px;
 }
 
+.panel-arrangement .dash_field {
+  width: 80%;
+  padding-left: 4%;
+}
+
+.panel-arrangement .dash_field .dash_data {
+  padding-top: 20px;
+}
+
+.panel-arrangement .dash_field .dash_data .line_intro {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel-arrangement .dash_field .dash_data .line_intro #category {
+  width: 20%;
+}
+
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.534);
   font-family: "Roboto", Helvetica, sans-serif;
