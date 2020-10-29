@@ -409,10 +409,32 @@ body.is-preload *:after {
   padding-top: 25px;
 }
 
+<<<<<<< HEAD
 body,
 input,
 select,
 textarea {
+=======
+.panel-arrangement .dash_field {
+  width: 80%;
+  padding-left: 4%;
+}
+
+.panel-arrangement .dash_field .dash_data {
+  padding-top: 20px;
+}
+
+.panel-arrangement .dash_field .dash_data .line_intro {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel-arrangement .dash_field .dash_data .line_intro #category {
+  width: 20%;
+}
+
+body, input, select, textarea {
+>>>>>>> dashboard_page
   color: rgba(255, 255, 255, 0.534);
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 15pt;

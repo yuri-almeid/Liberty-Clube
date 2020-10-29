@@ -467,6 +467,13 @@ body {
 
 				}
 
+<<<<<<< HEAD
+=======
+				.div_space {
+					height: 60px;
+				}
+	
+>>>>>>> dashboard_page
 			}
 			
 
@@ -521,6 +528,32 @@ body {
 			}
 
 		}
+
+		.dash_field {
+			width: 80%;
+			padding-left: 4%;
+
+			.dash_data {
+
+				padding-top: 20px;
+
+				.line_intro {
+					display: flex;
+					flex-direction: row;
+					
+
+					#category {
+						width: 20%;
+						
+					}
+
+				}
+				
+	
+			}
+	
+		}
+
 
 	}
 
