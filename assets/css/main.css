@@ -414,26 +414,42 @@ body.is-preload *:after {
   padding-left: 4%;
 }
 
-.panel-arrangement .dash_field h1 {
-  font-size: 200px;
-}
-
 .panel-arrangement .dash_field .dash_data {
   padding-top: 20px;
-  display: flex;
-  flex-direction: row;
-  outline: 1px solid red;
+  width: 100%;
 }
 
-.panel-arrangement .dash_field .dash_data .line_intro {
-  display: flex;
-  flex-direction: row;
-  outline: 1px solid red;
+.panel-arrangement .dash_field .dash_data .input_token {
+  width: 100%;
 }
 
-.panel-arrangement .dash_field .dash_data .line_intro #category {
-  width: 50%;
-  outline: 1px solid red;
+.panel-arrangement .dash_field .dash_data .input_token .line_intro {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-arrangement .dash_field .dash_data .input_token .line_intro #category {
+  width: 40%;
+}
+
+.panel-arrangement .dash_field .dash_data .main_graph {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.panel-arrangement .dash_field .dash_data .main_graph h1 {
+  color: black;
+  font-size: 45px;
+  margin-bottom: 0px;
 }
 
 body,
