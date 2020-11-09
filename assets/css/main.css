@@ -152,7 +152,6 @@ textarea {
 /* Basic */
 html {
   box-sizing: border-box;
-  
 }
 
 *,
@@ -410,25 +409,29 @@ body.is-preload *:after {
   padding-top: 25px;
 }
 
-.panel-arrangement .token_field .dash_field {
+.panel-arrangement .dash_field {
   width: 80%;
   padding-left: 4%;
 }
 
-.panel-arrangement .token_field .dash_field .dash_data {
+.panel-arrangement .dash_field h1 {
+  font-size: 200px;
+}
+
+.panel-arrangement .dash_field .dash_data {
   padding-top: 20px;
   display: flex;
   flex-direction: row;
   outline: 1px solid red;
 }
 
-.panel-arrangement .token_field .dash_field .dash_data .line_intro {
+.panel-arrangement .dash_field .dash_data .line_intro {
   display: flex;
   flex-direction: row;
   outline: 1px solid red;
 }
 
-.panel-arrangement .token_field .dash_field .dash_data .line_intro #category {
+.panel-arrangement .dash_field .dash_data .line_intro #category {
   width: 50%;
   outline: 1px solid red;
 }

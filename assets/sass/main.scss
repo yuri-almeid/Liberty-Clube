@@ -522,37 +522,43 @@ body {
 
 		}
 
-		.dash_field {
-			width: 80%;
-			padding-left: 4%;
+		
 
-			.dash_data {
 
-				padding-top: 20px;
-				display: flex;
-					flex-direction: row;
-					outline: 1px solid red;
+	}
 
-				.line_intro {
-					display: flex;
-					flex-direction: row;
-					
-					outline: 1px solid red;
+	.dash_field {
+		width: 80%;
+		padding-left: 4%;
 
-					#category {
-						width: 50%;
-						outline: 1px solid red;
-
-						
-					}
-
-				}
-				
-	
-			}
-	
+		h1{
+			font-size: 200px;
 		}
 
+		.dash_data {
+
+			padding-top: 20px;
+			display: flex;
+				flex-direction: row;
+				outline: 1px solid red;
+
+			.line_intro {
+				display: flex;
+				flex-direction: row;
+				
+				outline: 1px solid red;
+
+				#category {
+					width: 50%;
+					outline: 1px solid red;
+
+					
+				}
+
+			}
+			
+
+		}
 
 	}
 
