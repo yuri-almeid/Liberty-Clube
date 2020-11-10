@@ -543,6 +543,22 @@ body {
 					width: 100%;
 					display: flex;
 					justify-content: space-between;
+
+					#loadData {
+						width: 17%;
+						height: 60px;
+						 font-family: _font(family);
+						 font-size: medium;
+						 border: 0px;
+						 border-radius: 6px;
+						 color: white;
+						 background-color: _palette(accent1);
+
+					}
+
+					#loadData:hover {
+						background-color: #e56363;
+					}
 	
 					#category {
 						width: 40%;

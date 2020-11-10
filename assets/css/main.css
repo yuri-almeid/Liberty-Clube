@@ -429,6 +429,21 @@ body.is-preload *:after {
   justify-content: space-between;
 }
 
+.panel-arrangement .dash_field .dash_data .input_token .line_intro #loadData {
+  width: 17%;
+  height: 60px;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: medium;
+  border: 0px;
+  border-radius: 6px;
+  color: white;
+  background-color: #e44c4c;
+}
+
+.panel-arrangement .dash_field .dash_data .input_token .line_intro #loadData:hover {
+  background-color: #e56363;
+}
+
 .panel-arrangement .dash_field .dash_data .input_token .line_intro #category {
   width: 40%;
 }
