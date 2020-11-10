@@ -1,0 +1,100 @@
+
+// PEGA BALANÇO GERAL DA CONTA
+{
+  "balance": {
+    "balance": 18.96,
+    "currency": "USD",
+    "id": "faa4e74d-08ce-5c04-4f1f-815ba2748435",
+    "loginid": "CR1199136"
+  },
+  "echo_req": {
+    "balance": 1,
+    "subscribe": 1
+  },
+  "msg_type": "balance",
+  "subscription": {
+    "id": "faa4e74d-08ce-5c04-4f1f-815ba2748435"
+  }
+}
+
+
+// PEGA O HISTÓRICO DO CARA
+
+{
+  "echo_req": {
+    "description": 1,
+    "limit": 5,
+    "statement": 1
+  },
+  "msg_type": "statement",
+  "statement": {
+    "count": 5,
+    "transactions": [
+      {
+        "action_type": "deposit",
+        "amount": 2.85,
+        "app_id": {},
+        "balance_after": 18.96,
+        "contract_id": {},
+        "longcode": "Payment from Deriv Services Ltd Sep 2020",
+        "payout": {},
+        "reference_id": {},
+        "shortcode": {},
+        "transaction_id": 51109687161,
+        "transaction_time": 1602756029
+      },
+      {
+        "action_type": "deposit",
+        "amount": 16.11,
+        "app_id": {},
+        "balance_after": 16.11,
+        "contract_id": {},
+        "longcode": "Payment from Deriv Services Ltd Aug 2020",
+        "payout": {},
+        "reference_id": {},
+        "shortcode": {},
+        "transaction_id": 50133906161,
+        "transaction_time": 1600081433
+      },
+      {
+        "action_type": "withdrawal",
+        "amount": -314.12,
+        "app_id": 1,
+        "balance_after": 0,
+        "contract_id": {},
+        "longcode": "Account transfer from CR1199136 to CR1199131. Includes transfer fee of USD 6.28 (2%).",
+        "payout": {},
+        "reference_id": {},
+        "shortcode": {},
+        "transaction_id": 49566412681,
+        "transaction_time": 1598585119
+      },
+      {
+        "action_type": "deposit",
+        "amount": 132.12,
+        "app_id": {},
+        "balance_after": 314.12,
+        "contract_id": {},
+        "longcode": "Payment from Deriv Services Ltd Jul 2020",
+        "payout": {},
+        "reference_id": {},
+        "shortcode": {},
+        "transaction_id": 49104198601,
+        "transaction_time": 1597403487
+      },
+      {
+        "action_type": "deposit",
+        "amount": 181.94,
+        "app_id": {},
+        "balance_after": 182,
+        "contract_id": {},
+        "longcode": "Payment from Binary Services Ltd May 2020",
+        "payout": {},
+        "reference_id": {},
+        "shortcode": {},
+        "transaction_id": 46880848881,
+        "transaction_time": 1592194960
+      }
+    ]
+  }
+}
