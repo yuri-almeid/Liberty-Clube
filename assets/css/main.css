@@ -451,20 +451,6 @@ body.is-preload *:after {
 .panel-arrangement .dash_field .dash_data .main_graph {
   width: 100%;
   height: 500px;
-  border-radius: 20px;
-  background-color: white;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.panel-arrangement .dash_field .dash_data .main_graph h1 {
-  color: black;
-  font-size: 45px;
-  margin-bottom: 0px;
 }
 
 .panel-arrangement .dash_field .dash_data .sub_graph {
