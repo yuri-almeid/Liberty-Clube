@@ -6,9 +6,11 @@
 	<title>Dashboard</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="../../assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+	
 </head>
 
 <body class="is-preload">
@@ -84,13 +86,36 @@
 							</div>
 
 							<div class="main_graph">
-								<canvas id="myChart"></canvas>
+								<!-- <canvas id="myChart"></canvas> -->
 								
 							</div>
 
 							<div class="sub_graph">
 								<div class="lGraph">
-									
+									<canvas id="myChart"></canvas>]
+									<script>
+
+										var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+									</script>
 								</div>
 								<div class="rGraph">
 									<h1>Tabela de entradas</h1>
@@ -130,6 +155,8 @@
 	</div>
 
 	<!-- Scripts -->
+	
+	<!-- <script src="{{ asset('script.js') }}" defer></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 	<script src="../../assets/js/jquery.min.js"></script>
 	<script src="../../assets/js/jquery.scrolly.min.js"></script>
@@ -139,6 +166,10 @@
 	<script src="../../assets/js/breakpoints.min.js"></script>
 	<script src="../../assets/js/util.js"></script>
 	<script src="../../assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- <script async src="script.js" defer></script> -->
 
 
 	
