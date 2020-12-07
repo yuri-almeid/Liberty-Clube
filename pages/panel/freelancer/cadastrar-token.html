@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-BR">
+
+	<head>
+		<title>Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style-dashboard.css" />
+		<link rel="stylesheet" href="./cadastrar-token.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<a class="logo" href="../../index.html">
+					<img src="../../../icons/Liberty_Trader.svg" alt="a">
+					Liberty Trader
+
+				</a>
+					
+				
+				<nav id="nav">
+					<div class="menu-button" id="menuButton">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<button class="button red exit">Sair</button>
+				</nav>
+			</header>
+
+			<!-- Main -->
+
+			<div class="panel-arrangement">
+				<div class="sidemenu">
+
+					<div>
+
+						<h1 class="sidemenu-name">John Doe</h1>
+	
+						<p class="sidemenu-value">Valor em conta: 342309.00 USD</p>
+	
+						<div class="options">
+							<a href="#">
+								<img src="../../../icons/user-alt.svg" alt="">
+								<p>Perfil</p>
+							</a>
+							<a href="#">
+								<img src="../../../icons/dash_icon.svg" alt="">
+								<p>Dashboard</p>
+							</a>
+							<a href="#">
+								<img src="../../../icons/key_icon.svg" alt="">
+								<p class="selected">Cadastrar Token</p>
+							</a>
+							<a href="#">
+								<img src="../../../icons/config_icon.svg" alt="">
+								<p>Configuração</p>
+							</a>
+							<a href="#" class="extra-exit-button">
+								<p class="extra-exit-button">Sair</p>
+							</a>
+	
+						</div>
+						
+					</div>
+
+					<footer>
+						<a href="">
+							<img src="../../../icons/facebook_logo.svg" alt="">
+						</a>
+
+						<a href="">
+							<img src="../../../icons/instagram_logo.svg" alt="">
+						</a>
+
+						<a href="">
+							<img src="../../../icons/email_logo.svg" alt="">
+						</a>
+
+						<a href="">
+							<img src="../../../icons/telegram_logo.svg" alt="">
+						</a>
+					</footer>
+				</div>
+				
+                <form class="signin-token" method="post" action="#">
+                    <h1 class="special-title">Cadastrar Token</h1>
+
+                    <div class="group-of-inputs">
+                        <div class="input-group">
+                            <label for="email">E-mail</label>
+                            <input type="text">
+                        </div>
+    
+                        <div class="input-group">
+                            <label for="token">Deriv Token</label>
+                            <input type="text">
+                        </div>
+
+                    </div>
+
+                    <button class="button red token">Cadastrar Token</button>
+                
+                    <p><strong>Atenção </strong>Apenas será permitido um email, para cadastro dos tokens!</p>
+                
+                    <div class="instructions">
+                        <p>Instruções:</p>
+                    </div>
+                </form>
+				
+
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		<script src="../../assets/js/jquery.min.js"></script>
+		<script src="../../assets/js/jquery.scrolly.min.js"></script>
+		<script src="../../assets/js/jquery.dropotron.min.js"></script>
+		<script src="../../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../../assets/js/browser.min.js"></script>
+		<script src="../../assets/js/breakpoints.min.js"></script>
+		<script src="../../assets/js/util.js"></script>
+		<script src="../../assets/js/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+		<!-- Menu open and close function -->
+		<script>
+			const menuButton = document.getElementById('menuButton');
+			const sidemenu = document.querySelector('.sidemenu');
+			let isSelected = false;
+
+			menuButton.addEventListener('click', function() {
+				isSelected = !isSelected;
+				console.log(isSelected ? 'flex' : 'none');
+				let answer = isSelected ? 'flex' : 'none';
+				sidemenu.style.display = answer;
+			})
+
+		</script>
+
+
+
+	</body>
+
+</html>
