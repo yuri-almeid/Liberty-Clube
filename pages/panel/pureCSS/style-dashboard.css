@@ -104,15 +104,18 @@ a.logo {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    
 }
 
 .sidemenu-name {
     width: 100%;
-    padding: 20px 0;
+    padding: 38px 0;
 
     text-align: center;
     font-weight: 400;
     color: #ffffff;
+    /* outline: 1px solid red; */
 }
 
 .sidemenu-value {
@@ -132,12 +135,14 @@ a.logo {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    
 }
 
 .options > a {
     padding: 0 0 0 25px;
     width: 100%;
     height: 50px;
+
 
     text-decoration: none;
     text-align: center;
@@ -151,8 +156,11 @@ a.logo {
 
     text-decoration: none;
     color: #ffffff;
-
     text-align: center;
+}
+
+.options > a > img {
+    width: 20px;
 }
 
 .sidemenu footer {
@@ -167,6 +175,10 @@ a.logo {
     padding: 0 10px;
 }
 
+.sidemenu footer a > img {
+    height: 16px;
+}
+
 .extra-exit-button {
     display: none;
     cursor: auto;
@@ -177,6 +189,18 @@ a.logo {
     color:#E44C4C;
 }
 
+.options > a > p:hover{
+    
+    color: #E44C4C;
+}
+
+.space {
+    /* outline: 1px solid red; */
+    height: 35px;
+}
+
+
+
 .input-group {
     width: 100%;
     margin: 10px 20px;
@@ -185,6 +209,7 @@ a.logo {
     display: flex;
     flex-direction: column;
     text-align: flex-start;
+    
 }
 
 form {
@@ -209,6 +234,8 @@ input {
     
     border: 1px solid #616168;
     border-radius: 9px;
+
+    
     
 
 }
@@ -317,7 +344,10 @@ option {
         color:#E44C4C;
 
         text-decoration: none;
+
+        
     }
+
 
     .group-of-inputs{
         display: flex;
