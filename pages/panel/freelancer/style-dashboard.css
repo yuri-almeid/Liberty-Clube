@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Roboto';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+    background: #1C1D26;
+}
+
+#page-wrapper{
+    height: 100%;
+    weight: 100%;
+}
+
+header {
+    position: absolute;    
+    height: 76px;
+    width: 100vw;
+
+    padding: 0 20px;
+    background: #272832;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul > li{
+    display: inline;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a.logo {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 300;
+
+    padding: 5px 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+.red {
+    background: #E44C4C;
+    color: #FFFFFF;
+}
+
+.red:hover {
+    background: #d85d5d;
+}
+
+.panel-arrangement {
+    display: grid;
+    grid-template-columns: minmax(250px, 20%) 1fr;
+    height: 100%;
+}
+
+.sidemenu {
+    height: 100%;
+    padding: 76px 0 0 0;
+    background: #272833;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidemenu-name {
+    width: 100%;
+    padding: 20px 0;
+
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.sidemenu-value {
+    padding: 10px 0;
+    margin: 0px 10px 10px 10px;
+
+    border-bottom: 1px solid #E44C4C;
+
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.options {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.options > a {
+    padding: 0 0 0 25px;
+    width: 100%;
+    height: 50px;
+
+    text-decoration: none;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.options > a > p {
+    width: 100%;
+
+    text-decoration: none;
+    color: #ffffff;
+
+    text-align: center;
+}
+
+.sidemenu footer {
+    padding: 10px 0;
+
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+}
+
+.sidemenu footer a {
+    padding: 0 10px;
+}
+
+.extra-exit-button {
+    display: none;
+    cursor: auto;
+}
+
+.options > a > p.selected{
+    text-decoration: none;
+    color:#E44C4C;
+}
+
+.input-group {
+    width: 100%;
+    margin: 10px 20px;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+}
+
+form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+input {
+    height: 40px;
+    min-width: 100%;
+    max-width: 600px;
+
+    padding: 5px;
+
+    color: #ffffff;
+    background: none;
+    
+    border: 1px solid #616168;
+    border-radius: 9px;
+    
+
+}
+
+label {
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+
+.group-of-inputs {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 0 30px 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.special-title {
+    padding: 60px 50px 30px 50px;
+    margin: 0px 0px 30px 0px;
+
+    border-bottom: 1px solid #E44C4C;
+    color: #ffffff;
+
+    font-size: 40px;
+    font-weight: 300;
+}
+
+select {
+    height: 40px;
+    min-width: 100px;
+    max-width: 600px;
+    padding: 10px;
+
+    color: #ffffff;
+    background: none;
+    
+    border: 1px solid #616168;
+    border-radius: 9px;
+}
+
+option {
+    height: 40px;
+
+    color: #ffffff;
+    background: #1C1D26;
+    
+    border-top: 1px solid #616168;
+    border-bottom: 1px solid #616168;
+}
+
+@media screen and (max-width: 700px) {
+    .sidemenu,
+    .exit {
+        display: none;
+    }
+
+    .menu-button {
+        padding: 6px;
+        width: 30px;
+        height: 30px;
+        background: #E44C4C;
+        border-radius: 7px;
+
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu-button > div {
+        width: 100%;
+        border: 1px solid #FFFFFF;
+    }
+
+    header {
+        z-index: 2;
+    }
+
+    .sidemenu {
+        position: absolute;
+        left: 50%;
+        height: 100vw;
+        width: 60vw;
+        
+        margin: -30vw;
+        margin-top: 76px;
+        padding: 10px 0;
+        
+        border-radius: 0 0 20px 20px;
+        
+    }
+
+    .sidemenu-name {
+        padding-top: 10px;
+    }
+
+    .extra-exit-button {
+        display: block;
+
+        color:#E44C4C;
+
+        text-decoration: none;
+    }
+
+    .group-of-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+}
