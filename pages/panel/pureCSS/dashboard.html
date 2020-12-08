@@ -20,7 +20,7 @@
 			<!-- Header -->
 			<header id="header">
 				<a class="logo" href="../../index.html">
-					<img src="../../../icons/Liberty_Trader.svg" alt="a">
+					<img src="../../../images/semfundo2.png" alt="a">
 					Liberty Trader
 
 				</a>
@@ -92,6 +92,56 @@
 				</div>
 				
 				<div class="dash_data">
+
+					<div class="selec_cont">
+
+						<form action="s-token" method="post">
+							<select name="token" id=""></select>
+						</form>
+
+						<!-- <form class="selec-token" method="post" action="#">
+							
+
+		<div class="group-of-inputs">
+			<div class="input-group">
+				<label for="token">Deriv Token:</label>
+				<select name="token">
+					<option value="a">a</option>
+					<option value="b">b</option>
+					<option value="c">c</option>
+				</select>
+			</div>
+
+		</div>
+
+							<button class="button red token">Atualizar Dados</button>
+					
+					</form> -->
+
+						
+
+					</div>
+
+
+					<div class="main">
+
+					</div>
+
+					<div class="cont">
+
+						<div class="secnd">
+
+						</div>
+	
+						<div class="table">
+	
+						</div>
+
+					</div>
+
+					
+<!-- 
+					<div class="charts">
 						<form method="post" action="#">
 							<div class="mainChart">
 								<canvas id="mainChart"></canvas>
@@ -102,12 +152,12 @@
 							<div class="rightChart">
 								<canvas id="rightChart"></canvas>
 							</div>
-							<!-- <canvas id="mainChart"></canvas>
-							<canvas id="leftChart"></canvas>
-							<canvas id="rightChart"></canvas> -->
 							
 
 						</form>
+					</div> -->
+
+						
 				</div>
 
 			</div>
@@ -148,6 +198,7 @@
 			var mainCtx = document.getElementById('mainChart').getContext('2d');
 			var leftCtx = document.getElementById('leftChart').getContext('2d');
 			var rightCtx = document.getElementById('rightChart').getContext('2d');
+
 			var mainChart = new Chart(mainCtx, {
 				// The type of chart we want to create
 				type: 'line',

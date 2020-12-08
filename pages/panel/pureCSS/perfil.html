@@ -2,175 +2,177 @@
 
 <html lang="pt-BR">
 
-	<head>
-		<title>Dashboard</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="./style-dashboard.css" />
-		<link rel="stylesheet" href="./cadastrar-token.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
-	</head>
+<head>
+	<title>Meu Perfil</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style-dashboard.css" />
+	<link rel="stylesheet" href="./cadastrar-token.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
+		integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
+		crossorigin="anonymous"></script>
+</head>
 
-	<body>
-		<div id="page-wrapper">
+<body>
+	<div id="page-wrapper">
 
-			<!-- Header -->
-			<header id="header">
-				<a class="logo" href="../../index.html">
-					<img src="../../../icons/Liberty_Trader.svg" alt="a">
-					Liberty Trader
+		<!-- Header -->
+		<header id="header">
+			<a class="logo" href="../../index.html">
+				<!-- <img src="../../../icons/Liberty_Trader.svg" alt="a"> -->
+				<img src="../../../images/semfundo2.png" alt="a">
+				Liberty Trader
 
-				</a>
-					
-				
-				<nav id="nav">
-					<div class="menu-button" id="menuButton">
-						<div></div>
-						<div></div>
-						<div></div>
-					</div>
-					<button class="button red exit">Sair</button>
-				</nav>
-			</header>
+			</a>
 
-			<!-- Main -->
 
-			<div class="panel-arrangement">
-				<div class="sidemenu">
-
-					<div>
-<!-- CORRIGIR BUG DO NOME -->
-						<h1 class="sidemenu-name">Yuri Almeida</h1>
-	
-						<p class="sidemenu-value">Valor em conta: 342309.00 USD</p>
-	
-						<div class="options">
-							<a href="#">
-								<img src="../../../icons/user-alt.svg" alt="">
-								<p>Perfil</p>
-							</a>
-							<a href="#">
-								<img src="../../../icons/dash_icon.svg" alt="">
-								<p>Dashboard</p>
-							</a>
-							<a href="#">
-								<img src="../../../icons/key_icon.svg" alt="">
-								<p class="selected">Cadastrar Token</p>
-							</a>
-							<a href="#">
-								<img src="../../../icons/config_icon.svg" alt="">
-								<p>Configuração</p>
-							</a>
-							<a href="#" class="extra-exit-button">
-								<p class="extra-exit-button">Sair</p>
-							</a>
-	
-						</div>
-						
-					</div>
-
-					<footer>
-						<a href="">
-							<img src="../../../icons/facebook_logo.svg" alt="">
-						</a>
-
-						<a href="">
-							<img src="../../../icons/instagram_logo.svg" alt="">
-						</a>
-
-						<a href="">
-							<img src="../../../icons/email_logo.svg" alt="">
-						</a>
-
-						<a href="">
-							<img src="../../../icons/telegram_logo.svg" alt="">
-						</a>
-					</footer>
+			<nav id="nav">
+				<div class="menu-button" id="menuButton">
+					<div></div>
+					<div></div>
+					<div></div>
 				</div>
-				
-                <form class="signin-token" method="post" action="#">
-                    <h1 class="special-title">Minha Conta</h1>
+				<button class="button red exit">Sair</button>
+			</nav>
+		</header>
 
-                    <div class="group-of-inputs">
-                        <div class="input-group">
-                            <label for="name">Nome:</label>
-                            <input type="text">
-                        </div>
-    
-                        <div class="input-group">
-                            <label for="last-name">Sobrenome:</label>
-                            <input type="text">
-                        </div>
+		<!-- Main -->
 
-                    </div>
+		<div class="panel-arrangement">
+			<div class="sidemenu">
 
-                    <div class="group-of-inputs">
-                        <div class="input-group">
-                            <label for="email">E-mail:</label>
-                            <input type="text">
-                        </div>
-    
-                        <div class="input-group">
-                            <label for="telefone">Telefone:</label>
-                            <input type="text">
-                        </div>
+				<div>
+					<!-- CORRIGIR BUG DO NOME -->
+					<h1 class="sidemenu-name">Yuri Almeida</h1>
 
-                    </div>
+					<p class="sidemenu-value">Valor em conta: 342309.00 USD</p>
 
-					<div class="group-of-inputs">
-						<div class="input-group">
-							<label for="token">Deriv Token:</label>
-							<select name="token">
-								<option value="a">a</option>
-								<option value="b">b</option>
-								<option value="c">c</option>
-							</select>
-						</div>
+					<div class="options">
+						<a href="#">
+							<img src="../../../icons/user-alt.svg" alt="">
+							<p>Perfil</p>
+						</a>
+						<a href="#">
+							<img src="../../../icons/dash_icon.svg" alt="">
+							<p>Dashboard</p>
+						</a>
+						<a href="#">
+							<img src="../../../icons/key_icon.svg" alt="">
+							<p class="selected">Cadastrar Token</p>
+						</a>
+						<a href="#">
+							<img src="../../../icons/config_icon.svg" alt="">
+							<p>Configuração</p>
+						</a>
+						<a href="#" class="extra-exit-button">
+							<p class="extra-exit-button">Sair</p>
+						</a>
 
 					</div>
 
-                    <button class="button red token">Atualizar Dados</button>
-                
-                </form>
-				
+				</div>
 
+				<footer>
+					<a href="">
+						<img src="../../../icons/facebook_logo.svg" alt="">
+					</a>
+
+					<a href="">
+						<img src="../../../icons/instagram_logo.svg" alt="">
+					</a>
+
+					<a href="">
+						<img src="../../../icons/email_logo.svg" alt="">
+					</a>
+
+					<a href="">
+						<img src="../../../icons/telegram_logo.svg" alt="">
+					</a>
+				</footer>
 			</div>
+
+			<form class="signin-token" method="post" action="#">
+				<h1 class="special-title">Minha Conta</h1>
+
+				<div class="group-of-inputs">
+					<div class="input-group">
+						<label for="name">Nome:</label>
+						<input type="text">
+					</div>
+
+					<div class="input-group">
+						<label for="last-name">Sobrenome:</label>
+						<input type="text">
+					</div>
+
+				</div>
+
+				<div class="group-of-inputs">
+					<div class="input-group">
+						<label for="email">E-mail:</label>
+						<input type="text">
+					</div>
+
+					<div class="input-group">
+						<label for="telefone">Telefone:</label>
+						<input type="text">
+					</div>
+
+				</div>
+
+				<div class="group-of-inputs">
+					<div class="input-group">
+						<label for="token">Deriv Token:</label>
+						<select name="token">
+							<option value="a">a</option>
+							<option value="b">b</option>
+							<option value="c">c</option>
+						</select>
+					</div>
+
+				</div>
+
+				<button class="button red token">Atualizar Dados</button>
+
+			</form>
+
+
 		</div>
+	</div>
 
-		<!-- Scripts -->
-		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-		<script src="../../assets/js/jquery.min.js"></script>
-		<script src="../../assets/js/jquery.scrolly.min.js"></script>
-		<script src="../../assets/js/jquery.dropotron.min.js"></script>
-		<script src="../../assets/js/jquery.scrollex.min.js"></script>
-		<script src="../../assets/js/browser.min.js"></script>
-		<script src="../../assets/js/breakpoints.min.js"></script>
-		<script src="../../assets/js/util.js"></script>
-		<script src="../../assets/js/main.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="../../assets/js/jquery.min.js"></script>
+	<script src="../../assets/js/jquery.scrolly.min.js"></script>
+	<script src="../../assets/js/jquery.dropotron.min.js"></script>
+	<script src="../../assets/js/jquery.scrollex.min.js"></script>
+	<script src="../../assets/js/browser.min.js"></script>
+	<script src="../../assets/js/breakpoints.min.js"></script>
+	<script src="../../assets/js/util.js"></script>
+	<script src="../../assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-		<!-- Menu open and close function -->
-		<script>
-			const menuButton = document.getElementById('menuButton');
-			const sidemenu = document.querySelector('.sidemenu');
-			let isSelected = false;
+	<!-- Menu open and close function -->
+	<script>
+		const menuButton = document.getElementById('menuButton');
+		const sidemenu = document.querySelector('.sidemenu');
+		let isSelected = false;
 
-			menuButton.addEventListener('click', function() {
-				isSelected = !isSelected;
-				console.log(isSelected ? 'flex' : 'none');
-				let answer = isSelected ? 'flex' : 'none';
-				sidemenu.style.display = answer;
-			})
-
-		</script>
-
+		menuButton.addEventListener('click', function () {
+			isSelected = !isSelected;
+			console.log(isSelected ? 'flex' : 'none');
+			let answer = isSelected ? 'flex' : 'none';
+			sidemenu.style.display = answer;
+		})
+	</script>
 
 
-	</body>
+
+</body>
 
 </html>
