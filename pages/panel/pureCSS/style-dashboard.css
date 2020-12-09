@@ -155,6 +155,9 @@ a.logo {
 
     display: flex;
     align-items: center;
+
+    margin-bottom: 15px;
+
 }
 
 .options > a > p {
@@ -407,6 +410,14 @@ option {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         /* transition: all .5s ease; */
     }
+
+    .options > a {
+
+        margin-bottom: 0px;
+    
+    }
+
+
 
 
     .sidemenu-name {
